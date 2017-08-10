@@ -2,7 +2,42 @@
 <html>
 <head>
   <title></title>
-  <script type="text/javascript" href="assets/javascript/game.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Psychic Game<h1>
+  <img src="http://thmhc.com/blog/wp-content/uploads/2017/02/a-psychic-medium-etdgsfh.jpg" id="pychic">
+  <h2>Guess what letter I'm thinking of</h2>
+</header>
+<div class="container">
+	<div id="gameBox">
+  		<p> Wins: <span id="wins"></span></p>
+  		<p> Losses: <span id="losses"></span></p>
+  		<p> Guesses Left: <span id="guessesLeft"></span></p>
+  		<p>  Guessed Letters: <span id= "guessedLetters"></span></p>
+  	</div>
+</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>  
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title></title>
 </head>
 <body>
 <header>
@@ -10,10 +45,11 @@
   <h4>Guess what letter I'm thinking of</h4>
 </header>
 <div>
-  <h2 id="wins">Wins: 0</h2>
-  <h2 id="losses">Losses: 0</h2>
-  <h3 id="guessesLeft">Guesses Left: 7</h3>
-  <h3 id="guessedLetters">Guessed Letters: </h3>
+  <p> Wins:<span id="wins"></spaspan></p>
+  <p> Losses:<span id="losses"></span></p>
+  <p> Guesses Left:<span id="guessesLeft"></span></p>
+  <p>  Guessed Letters:<span id= "guessedLetters"></span> </p>
 </div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>  
-</html>
+</html> -->
